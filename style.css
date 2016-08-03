@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+}
+
+
+h1 {
+  color: #C03134;
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: -2px
+
+}
+
+h2, h3 {
+  color: #272822;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  color: #272822;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px
+}
+
+.img-circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%
+}
+
+.border {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.img-square {
+  width: 150px;
+  height: 200px;
+  box-shadow: 1px, 1px, 3px, rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+a {
+  color: rgb(150, 150, 150);
+  text-decoration: none;
+  font-size: 30px;
+}
+
+a:hover {
+  color: #C03134;
+}
+
+.list-inline {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-logo {
+  color: rgb(150, 150, 150);
+  font-size: 10px;
+}
+
+
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 3px;
+  box-shadow: 1px, 1px, 3px, rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 700px;
+  margin: 50px auto;
+}
+
+.btn-red {
+  background-color: rgb(150, 150, 150);
+  color: white;
+  font-weight: 500
+  padding: 10px;
+  border-radius: 4px;
+}
+
+th, td {
+     padding: 15px;
+    text-align: left;
+}
+
