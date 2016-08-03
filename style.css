@@ -91,6 +91,12 @@ a:hover {
   margin: 50px auto;
 }
 
+.bottom-card {
+  background-color: rgb(245, 245, 245);
+  width: 700px;
+  margin: 50px auto;
+}
+
 .btn-red {
   background-color: rgb(150, 150, 150);
   color: white;
