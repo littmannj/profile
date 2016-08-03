@@ -11,8 +11,13 @@ h1 {
   letter-spacing: -2px
 }
 
-h2, h3 {
+h2 {
   color: #272822;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+  color: #C03134;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -42,7 +47,7 @@ p {
 a {
   color: rgb(150, 150, 150);
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 a:hover {
@@ -61,6 +66,20 @@ a:hover {
   font-size: 10px;
 }
 
+.side-bar {
+  position: fixed;
+  list-style-type: none;
+  background-color: rgb(230, 230, 230);
+  opacity: 0.8;
+  border-radius: 3px;
+  box-shadow: 1px, 1px, 3px, rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:60px;
+}
 
 .card {
   background-color: white;
